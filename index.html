@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="">Employee name</label>
+        <input type="text" id="empname">
+        <label for="">Basic salary</label>
+        <input type="number" id="basicsalary">
+        <label for="">work day</label>
+        <input type="number" id="workday">
+        <label for="">work hour</label>
+        <input type="number" id="workhour">
+        <label for="">Absence</label>
+        <input type="number" id="absence">
+        <label for="">OT</label>
+        <input type="number" id="OT">
+        <label for="">Bonus</label>
+        <input type="number" id="Bonus">
+        <label for="">OthDed</label>
+        <input type="number" id="OthDed">
+        <label for="">late (min)</label>
+        <input type="number" id="late">
+        <input type="button" id="calculate" value="Calculate">
+    </form>
+
+    <div class="result">
+       <table>
+        <tr>
+            <th>Employee name</th>
+            <th>Basic salary</th>
+            <th>work day</th>
+            <th>work hour</th>
+            <th>ABS</th>
+            <th>OT</th>
+            <th>Bonus</th>
+            <th>OthDed</th>
+            <th>late (min)</th>
+            <th>Net salary</th>
+            <th>Net salary after tax</th>
+            <th>FinalSalary</th>
+        </tr>
+        <tbody id="result">
+           
+        </tbody>
+       </table>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
